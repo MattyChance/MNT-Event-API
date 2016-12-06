@@ -1,0 +1,19 @@
+{
+  "name": "facebook-graph-api-test",
+  "version": "1.0.0",
+  "description": "an app to get all events on facebook related to montreal tech",
+  "main": "facebook-app-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattyChance/MNT-Event-API.git"
+  },
+  "author": "Matty Chance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattyChance/MNT-Event-API/issues"
+  },
+  "homepage": "https://github.com/MattyChance/MNT-Event-API#readme"
+}
