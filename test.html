@@ -49,7 +49,7 @@
             str += "<b>id: </b>"+response.id+"<br>";
             str += "<b>Email:</b> "+response.email+"<br>";
             str += "<input type='button' value='Get Photo' onclick='getPhoto();'/>";
-            str += "<input type='button' value='Get Groups' onclick='getGroups();'/>";
+            str += "<input type='button' value='Get Group Event' onclick='getGroups();'/>";
             str += "<input type='button' value='Logout' onclick='Logout();'/>";
         document.getElementById("status").innerHTML=str;
       });
@@ -93,17 +93,6 @@
         }
       );
     }
-    // function getEvents() {
-    //   FB.api('/{}/events', function(response) {
-    //     console.log('get events response', response);
-    //     // response.data.map(function(prev, curr) {
-    //     //   var str = "<b>Event list</b>"
-    //     // })
-
-
-    //   })
-    // }
-
 
     function Logout() {
         FB.logout(function(){document.location.reload();});
